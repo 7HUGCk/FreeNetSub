@@ -6,30 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe",
-        "🇨🇾 CY 05 - xiaohe",
-        "🇨🇾 CY 06 - xiaohe",
-        "🇨🇾 CY 07 - xiaohe",
-        "🇨🇾 CY 08 - xiaohe",
-        "🇨🇾 CY 09 - xiaohe"
+        "🇨🇾 CY 01 - n2Day",
+        "🇨🇾 CY 02 - n2Day",
+        "🇨🇾 CY 03 - n2Day",
+        "🇨🇾 CY 04 - n2Day",
+        "🇨🇾 CY 05 - n2Day",
+        "🇨🇾 CY 06 - n2Day",
+        "🇨🇾 CY 07 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇾 CY 01 - xiaohe",
-        "🇨🇾 CY 02 - xiaohe",
-        "🇨🇾 CY 03 - xiaohe",
-        "🇨🇾 CY 04 - xiaohe",
-        "🇨🇾 CY 05 - xiaohe",
-        "🇨🇾 CY 06 - xiaohe",
-        "🇨🇾 CY 07 - xiaohe",
-        "🇨🇾 CY 08 - xiaohe",
-        "🇨🇾 CY 09 - xiaohe"
+        "🇨🇾 CY 01 - n2Day",
+        "🇨🇾 CY 02 - n2Day",
+        "🇨🇾 CY 03 - n2Day",
+        "🇨🇾 CY 04 - n2Day",
+        "🇨🇾 CY 05 - n2Day",
+        "🇨🇾 CY 06 - n2Day",
+        "🇨🇾 CY 07 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },

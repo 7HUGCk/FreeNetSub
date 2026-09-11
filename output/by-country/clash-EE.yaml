@@ -4,7 +4,7 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇪🇪 EE 01 - xiaohe
+- name: 🇪🇪 EE 01 - n2Day
   type: vless
   server: 94.183.170.135
   port: 8443
@@ -18,12 +18,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇪🇪 EE 01 - xiaohe
+  - 🇪🇪 EE 01 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇪🇪 EE 01 - xiaohe
+  - 🇪🇪 EE 01 - n2Day
 rules:
 - MATCH,PROXIES
