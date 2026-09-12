@@ -6,16 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇽 MX 01 - n2Day",
-        "🇲🇽 MX 02 - n2Day"
+        "🇦🇲 AM 01 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇽 MX 01 - n2Day",
-        "🇲🇽 MX 02 - n2Day"
+        "🇦🇲 AM 01 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
