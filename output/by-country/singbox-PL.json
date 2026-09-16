@@ -6,14 +6,26 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇵🇱 PL 01 - n2Day"
+        "🇵🇱 PL 01 - n2Day",
+        "🇵🇱 PL 02 - n2Day",
+        "🇵🇱 PL 03 - n2Day",
+        "🇵🇱 PL 04 - n2Day",
+        "🇵🇱 PL 05 - n2Day",
+        "🇵🇱 PL 06 - n2Day",
+        "🇵🇱 PL 07 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇵🇱 PL 01 - n2Day"
+        "🇵🇱 PL 01 - n2Day",
+        "🇵🇱 PL 02 - n2Day",
+        "🇵🇱 PL 03 - n2Day",
+        "🇵🇱 PL 04 - n2Day",
+        "🇵🇱 PL 05 - n2Day",
+        "🇵🇱 PL 06 - n2Day",
+        "🇵🇱 PL 07 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },

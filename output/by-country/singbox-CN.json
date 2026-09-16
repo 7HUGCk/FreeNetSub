@@ -6,18 +6,16 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 SA 01 - n2Day",
-        "🇸🇦 SA 02 - n2Day",
-        "🇸🇦 SA 03 - n2Day"
+        "🇨🇳 CN 01 - n2Day",
+        "🇨🇳 CN 02 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - n2Day",
-        "🇸🇦 SA 02 - n2Day",
-        "🇸🇦 SA 03 - n2Day"
+        "🇨🇳 CN 01 - n2Day",
+        "🇨🇳 CN 02 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
