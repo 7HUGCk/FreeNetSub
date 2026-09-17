@@ -6,14 +6,38 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇸🇦 SA 01 - n2Day"
+        "🇸🇦 SA 01 - n2Day",
+        "🇸🇦 SA 02 - n2Day",
+        "🇸🇦 SA 03 - n2Day",
+        "🇸🇦 SA 04 - n2Day",
+        "🇸🇦 SA 05 - n2Day",
+        "🇸🇦 SA 06 - n2Day",
+        "🇸🇦 SA 07 - n2Day",
+        "🇸🇦 SA 08 - n2Day",
+        "🇸🇦 SA 09 - n2Day",
+        "🇸🇦 SA 10 - n2Day",
+        "🇸🇦 SA 11 - n2Day",
+        "🇸🇦 SA 12 - n2Day",
+        "🇸🇦 SA 13 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇸🇦 SA 01 - n2Day"
+        "🇸🇦 SA 01 - n2Day",
+        "🇸🇦 SA 02 - n2Day",
+        "🇸🇦 SA 03 - n2Day",
+        "🇸🇦 SA 04 - n2Day",
+        "🇸🇦 SA 05 - n2Day",
+        "🇸🇦 SA 06 - n2Day",
+        "🇸🇦 SA 07 - n2Day",
+        "🇸🇦 SA 08 - n2Day",
+        "🇸🇦 SA 09 - n2Day",
+        "🇸🇦 SA 10 - n2Day",
+        "🇸🇦 SA 11 - n2Day",
+        "🇸🇦 SA 12 - n2Day",
+        "🇸🇦 SA 13 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
