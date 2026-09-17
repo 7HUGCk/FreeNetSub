@@ -6,6 +6,48 @@ log-level: info
 proxies:
 - name: 🇸🇦 SA 01 - n2Day
   type: vless
+  server: 91.209.253.68
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 02 - n2Day
+  type: vless
+  server: 91.209.253.68
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 03 - n2Day
+  type: vless
+  server: 91.209.253.109
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 04 - n2Day
+  type: vless
   server: 91.209.253.25
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
@@ -18,77 +60,7 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 02 - n2Day
-  type: vless
-  server: 91.209.253.243
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 03 - n2Day
-  type: vless
-  server: 91.209.253.216
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 04 - n2Day
-  type: vless
-  server: 91.209.253.244
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 05 - n2Day
-  type: vless
-  server: 91.209.253.109
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 06 - n2Day
-  type: vless
-  server: 91.209.253.109
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 07 - n2Day
   type: vless
   server: 91.209.253.42
   port: 443
@@ -102,35 +74,7 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 08 - n2Day
-  type: vless
-  server: 91.209.253.243
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 09 - n2Day
-  type: vless
-  server: 91.209.253.68
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 10 - n2Day
+- name: 🇸🇦 SA 06 - n2Day
   type: vless
   server: 91.209.253.244
   port: 443
@@ -144,21 +88,7 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 11 - n2Day
-  type: vless
-  server: 91.209.253.229
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 12 - n2Day
+- name: 🇸🇦 SA 07 - n2Day
   type: vless
   server: 91.209.253.109
   port: 443
@@ -172,23 +102,9 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 13 - n2Day
+- name: 🇸🇦 SA 08 - n2Day
   type: vless
-  server: 91.209.253.68
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 14 - n2Day
-  type: vless
-  server: 91.209.253.119
+  server: 91.209.253.216
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -200,7 +116,21 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 15 - n2Day
+- name: 🇸🇦 SA 09 - n2Day
+  type: vless
+  server: 91.209.253.229
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 10 - n2Day
   type: vless
   server: 91.209.253.250
   port: 443
@@ -214,9 +144,9 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 16 - n2Day
+- name: 🇸🇦 SA 11 - n2Day
   type: vless
-  server: 91.209.253.216
+  server: 91.209.253.119
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
   udp: true
@@ -228,21 +158,7 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 17 - n2Day
-  type: vless
-  server: 91.209.253.216
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 18 - n2Day
+- name: 🇸🇦 SA 12 - n2Day
   type: vless
   server: 91.209.253.243
   port: 443
@@ -273,12 +189,6 @@ proxy-groups:
   - 🇸🇦 SA 10 - n2Day
   - 🇸🇦 SA 11 - n2Day
   - 🇸🇦 SA 12 - n2Day
-  - 🇸🇦 SA 13 - n2Day
-  - 🇸🇦 SA 14 - n2Day
-  - 🇸🇦 SA 15 - n2Day
-  - 🇸🇦 SA 16 - n2Day
-  - 🇸🇦 SA 17 - n2Day
-  - 🇸🇦 SA 18 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -296,11 +206,5 @@ proxy-groups:
   - 🇸🇦 SA 10 - n2Day
   - 🇸🇦 SA 11 - n2Day
   - 🇸🇦 SA 12 - n2Day
-  - 🇸🇦 SA 13 - n2Day
-  - 🇸🇦 SA 14 - n2Day
-  - 🇸🇦 SA 15 - n2Day
-  - 🇸🇦 SA 16 - n2Day
-  - 🇸🇦 SA 17 - n2Day
-  - 🇸🇦 SA 18 - n2Day
 rules:
 - MATCH,PROXIES
