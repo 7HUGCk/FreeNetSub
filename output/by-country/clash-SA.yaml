@@ -6,6 +6,20 @@ log-level: info
 proxies:
 - name: 🇸🇦 SA 01 - n2Day
   type: vless
+  server: 91.209.253.42
+  port: 443
+  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nb.lovecf.ggff.net
+  network: ws
+  ws-opts:
+    path: /proxyip=us.xiabibi.cf
+    headers:
+      Host: nb.lovecf.ggff.net
+- name: 🇸🇦 SA 02 - n2Day
+  type: vless
   server: 91.209.253.68
   port: 443
   uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
@@ -16,20 +30,6 @@ proxies:
   network: ws
   ws-opts:
     path: /
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 02 - n2Day
-  type: vless
-  server: 91.209.253.109
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
     headers:
       Host: nb.lovecf.ggff.net
 - name: 🇸🇦 SA 03 - n2Day
@@ -46,34 +46,6 @@ proxies:
     path: /
     headers:
       Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 04 - n2Day
-  type: vless
-  server: 91.209.253.229
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
-- name: 🇸🇦 SA 05 - n2Day
-  type: vless
-  server: 91.209.253.250
-  port: 443
-  uuid: b09dfed1-90fa-4353-8bdf-de1edb2e2d79
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: nb.lovecf.ggff.net
-  network: ws
-  ws-opts:
-    path: /proxyip=us.xiabibi.cf
-    headers:
-      Host: nb.lovecf.ggff.net
 proxy-groups:
 - name: PROXIES
   type: select
@@ -82,8 +54,6 @@ proxy-groups:
   - 🇸🇦 SA 01 - n2Day
   - 🇸🇦 SA 02 - n2Day
   - 🇸🇦 SA 03 - n2Day
-  - 🇸🇦 SA 04 - n2Day
-  - 🇸🇦 SA 05 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,7 +62,5 @@ proxy-groups:
   - 🇸🇦 SA 01 - n2Day
   - 🇸🇦 SA 02 - n2Day
   - 🇸🇦 SA 03 - n2Day
-  - 🇸🇦 SA 04 - n2Day
-  - 🇸🇦 SA 05 - n2Day
 rules:
 - MATCH,PROXIES

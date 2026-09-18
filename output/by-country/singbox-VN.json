@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇩🇪 德国 (Germany) 01 (家宽) - n2Day"
+        "🇻🇳 VN 01 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇩🇪 德国 (Germany) 01 (家宽) - n2Day"
+        "🇻🇳 VN 01 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
