@@ -4,10 +4,10 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇧🇪 BE 01 - n2Day
+- name: 🇻🇳 VN 01 - n2Day
   type: vless
-  server: 185.125.100.76
-  port: 8443
+  server: 160.30.54.63
+  port: 443
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   udp: true
   tls: true
@@ -15,7 +15,7 @@ proxies:
   servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /trade/game/movies
+    path: /
     headers:
       Host: cdn8848.776676.xyz
 proxy-groups:
@@ -23,12 +23,12 @@ proxy-groups:
   type: select
   proxies:
   - AUTO
-  - 🇧🇪 BE 01 - n2Day
+  - 🇻🇳 VN 01 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇧🇪 BE 01 - n2Day
+  - 🇻🇳 VN 01 - n2Day
 rules:
 - MATCH,PROXIES
