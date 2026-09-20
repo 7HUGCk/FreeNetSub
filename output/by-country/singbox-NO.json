@@ -6,14 +6,14 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇱 CL 01 - n2Day"
+        "🇳🇴 NO 01 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇱 CL 01 - n2Day"
+        "🇳🇴 NO 01 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
