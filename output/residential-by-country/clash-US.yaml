@@ -4,31 +4,30 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇷 IR 01 - n2Day
+- name: 🇺🇸 美国 (United States) 01 (家宽) - n2Day
   type: vless
-  server: 103.251.167.112
-  port: 8443
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  server: 104.16.107.139
+  port: 8880
+  uuid: 24c2a873-4584-4c53-8679-61029682d0bb
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: cdn8848.776676.xyz
   network: ws
   ws-opts:
-    path: /library/lang?ed=2560fp=chrome
+    path: /pyip
     headers:
-      Host: cdn8848.776676.xyz
+      Host: soft-thunder-bc22.111-f59.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇷 IR 01 - n2Day
+  - 🇺🇸 美国 (United States) 01 (家宽) - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇷 IR 01 - n2Day
+  - 🇺🇸 美国 (United States) 01 (家宽) - n2Day
 rules:
 - MATCH,PROXIES
