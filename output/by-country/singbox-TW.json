@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇹🇼 中国台湾 (Taiwan) 01 - n2Day"
+        "🇹🇼 中国台湾 (Taiwan) 01 - n2Day",
+        "🇹🇼 中国台湾 (Taiwan) 02 - n2Day",
+        "🇹🇼 中国台湾 (Taiwan) 03 - n2Day",
+        "🇹🇼 中国台湾 (Taiwan) 04 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇹🇼 中国台湾 (Taiwan) 01 - n2Day"
+        "🇹🇼 中国台湾 (Taiwan) 01 - n2Day",
+        "🇹🇼 中国台湾 (Taiwan) 02 - n2Day",
+        "🇹🇼 中国台湾 (Taiwan) 03 - n2Day",
+        "🇹🇼 中国台湾 (Taiwan) 04 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
