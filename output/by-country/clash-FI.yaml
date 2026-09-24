@@ -5,14 +5,12 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇫🇮 FI 01 - n2Day
-  type: vless
-  server: karo.rick313.dpdns.org
-  port: 2087
-  uuid: 2e4e6812-be87-415b-a2e8-b0e17e9f2da7
+  type: ss
+  server: p1tun3.greewebservices.ir
+  port: 2070
+  cipher: chacha20-ietf-poly1305
+  password: cVvgP0Bz69hsErPBvqKbwQ
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: karo.rick313.dpdns.org
 - name: 🇫🇮 FI 02 - n2Day
   type: vless
   server: a2.arshia-nova.ir
@@ -27,27 +25,6 @@ proxies:
     path: /
     headers:
       Host: c12.com
-- name: 🇫🇮 FI 03 - n2Day
-  type: vless
-  server: k2.cloud--vpn.site
-  port: 443
-  uuid: 64c2bc5c-7534-4359-9b1e-e1dce5a380cd
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ssl.fastly.com
-  network: ws
-  ws-opts:
-    path: /?edTelegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: c12.com
-- name: 🇫🇮 FI 04 - n2Day
-  type: ss
-  server: p1tun3.greewebservices.ir
-  port: 2070
-  cipher: chacha20-ietf-poly1305
-  password: cVvgP0Bz69hsErPBvqKbwQ
-  udp: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -55,8 +32,6 @@ proxy-groups:
   - AUTO
   - 🇫🇮 FI 01 - n2Day
   - 🇫🇮 FI 02 - n2Day
-  - 🇫🇮 FI 03 - n2Day
-  - 🇫🇮 FI 04 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -64,7 +39,5 @@ proxy-groups:
   proxies:
   - 🇫🇮 FI 01 - n2Day
   - 🇫🇮 FI 02 - n2Day
-  - 🇫🇮 FI 03 - n2Day
-  - 🇫🇮 FI 04 - n2Day
 rules:
 - MATCH,PROXIES
