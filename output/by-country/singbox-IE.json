@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇨🇭 CH 01 - n2Day"
+        "🇮🇪 IE 01 - n2Day",
+        "🇮🇪 IE 02 - n2Day",
+        "🇮🇪 IE 03 - n2Day",
+        "🇮🇪 IE 04 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇨🇭 CH 01 - n2Day"
+        "🇮🇪 IE 01 - n2Day",
+        "🇮🇪 IE 02 - n2Day",
+        "🇮🇪 IE 03 - n2Day",
+        "🇮🇪 IE 04 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
