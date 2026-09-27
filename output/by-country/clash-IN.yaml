@@ -27,7 +27,7 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: firefox
 - name: 🇮🇳 印度 (India) 03 - n2Day
   type: vless
   server: 194.61.31.126
@@ -39,21 +39,8 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇮🇳 印度 (India) 04 - n2Day
-  type: vless
-  server: 154.197.75.40
-  port: 8880
-  uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vms.lifetime37.workers.dev
-- name: 🇮🇳 印度 (India) 05 - n2Day
   type: vless
   server: 194.61.31.126
   port: 2053
@@ -64,7 +51,7 @@ proxies:
   reality-opts:
     public-key: PuAGLfJy6cu1TNoHuKIKSxPetCbZI41fc8hQDjWPIAU
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 proxy-groups:
 - name: PROXIES
   type: select
@@ -74,7 +61,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - n2Day
   - 🇮🇳 印度 (India) 03 - n2Day
   - 🇮🇳 印度 (India) 04 - n2Day
-  - 🇮🇳 印度 (India) 05 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -84,6 +70,5 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 - n2Day
   - 🇮🇳 印度 (India) 03 - n2Day
   - 🇮🇳 印度 (India) 04 - n2Day
-  - 🇮🇳 印度 (India) 05 - n2Day
 rules:
 - MATCH,PROXIES
