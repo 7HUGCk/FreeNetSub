@@ -6,21 +6,21 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - n2Day
   type: vless
-  server: 188.114.97.6
-  port: 2053
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
+  servername: jp3.yohototo.top
   network: ws
   ws-opts:
-    path: /
+    path: /tyxyws
     headers:
-      Host: levikoconfig.levikogjgfdd.ir
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 02 - n2Day
   type: vless
-  server: 162.159.254.3
+  server: 188.114.97.6
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -34,34 +34,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 03 - n2Day
   type: vless
-  server: 172.67.217.240
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 04 - n2Day
-  type: vless
-  server: 172.64.154.8
-  port: 2086
-  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /?ed=2560security=tls
-    headers:
-      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 05 - n2Day
-  type: vless
-  server: 172.64.146.66
+  server: 104.18.41.190
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -73,9 +46,36 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 04 - n2Day
+  type: vless
+  server: 104.18.46.234
+  port: 80
+  uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
+- name: 🌐 其他地区 (Other) 05 - n2Day
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 06 - n2Day
   type: vless
-  server: 104.18.42.98
+  server: 104.16.10.48
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -89,7 +89,7 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 07 - n2Day
   type: vless
-  server: 104.18.41.190
+  server: 172.64.146.66
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -103,147 +103,8 @@ proxies:
       Host: ccc.010304.xyz
 - name: 🌐 其他地区 (Other) 08 - n2Day
   type: vless
-  server: 104.21.70.21
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 09 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 2096
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 10 - n2Day
-  type: vless
-  server: 172.64.150.28
+  server: 104.18.39.218
   port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 11 - n2Day
-  type: vless
-  server: 104.18.13.71
-  port: 443
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server9.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /imnotarealherox
-    headers:
-      Host: server9.9966338.xyz
-- name: 🌐 其他地区 (Other) 12 - n2Day
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 13 - n2Day
-  type: vless
-  server: 104.27.52.69
-  port: 443
-  uuid: 73796e63-0000-4000-8000-000000000000
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: icy-pine-5efc.aoigjojowfie123.workers.dev
-  network: ws
-  ws-opts:
-    path: /sync
-    headers:
-      Host: icy-pine-5efc.aoigjojowfie123.workers.dev
-- name: 🌐 其他地区 (Other) 14 - n2Day
-  type: vless
-  server: 172.67.208.166
-  port: 2083
-  uuid: 766f6c65-0000-4000-8000-787000000002
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: volexproxy.karjadidd.workers.dev
-  network: ws
-  ws-opts:
-    path: /volexprosy
-    headers:
-      Host: volexproxy.karjadidd.workers.dev
-- name: 🌐 其他地区 (Other) 15 - n2Day
-  type: vless
-  server: 104.20.30.10
-  port: 443
-  uuid: 91d28760-ecf1-450b-9170-d310111a0e6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: us9.69lover.my
-  network: ws
-  ws-opts:
-    path: /api/v2/63e9687fa53e441c/stream
-    headers:
-      Host: us9.69lover.my
-- name: 🌐 其他地区 (Other) 16 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 2087
-  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: levikoconfig.levikogjgfdd.ir
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: levikoconfig.levikogjgfdd.ir
-- name: 🌐 其他地区 (Other) 17 - n2Day
-  type: vless
-  server: 104.21.93.99
-  port: 2083
-  uuid: 766f6c65-0000-4000-8000-787000000002
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: volexproxy.karjadidd.workers.dev
-  network: ws
-  ws-opts:
-    path: /volexprosy
-    headers:
-      Host: volexproxy.karjadidd.workers.dev
-- name: 🌐 其他地区 (Other) 18 - n2Day
-  type: vless
-  server: 162.159.45.19
-  port: 2052
   uuid: 47fcef29-ab4e-4aa6-932b-d95a18f28a4e
   udp: true
   tls: false
@@ -253,20 +114,6 @@ proxies:
     path: /?ed=2560security=tls
     headers:
       Host: 8nj2r.2k8t.f88.hh.vavava.kdns.fr
-- name: 🌐 其他地区 (Other) 19 - n2Day
-  type: vless
-  server: 104.18.12.71
-  port: 443
-  uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server9.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /imnotarealherox
-    headers:
-      Host: server9.9966338.xyz
 proxy-groups:
 - name: PROXIES
   type: select
@@ -280,17 +127,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 06 - n2Day
   - 🌐 其他地区 (Other) 07 - n2Day
   - 🌐 其他地区 (Other) 08 - n2Day
-  - 🌐 其他地区 (Other) 09 - n2Day
-  - 🌐 其他地区 (Other) 10 - n2Day
-  - 🌐 其他地区 (Other) 11 - n2Day
-  - 🌐 其他地区 (Other) 12 - n2Day
-  - 🌐 其他地区 (Other) 13 - n2Day
-  - 🌐 其他地区 (Other) 14 - n2Day
-  - 🌐 其他地区 (Other) 15 - n2Day
-  - 🌐 其他地区 (Other) 16 - n2Day
-  - 🌐 其他地区 (Other) 17 - n2Day
-  - 🌐 其他地区 (Other) 18 - n2Day
-  - 🌐 其他地区 (Other) 19 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -304,16 +140,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 06 - n2Day
   - 🌐 其他地区 (Other) 07 - n2Day
   - 🌐 其他地区 (Other) 08 - n2Day
-  - 🌐 其他地区 (Other) 09 - n2Day
-  - 🌐 其他地区 (Other) 10 - n2Day
-  - 🌐 其他地区 (Other) 11 - n2Day
-  - 🌐 其他地区 (Other) 12 - n2Day
-  - 🌐 其他地区 (Other) 13 - n2Day
-  - 🌐 其他地区 (Other) 14 - n2Day
-  - 🌐 其他地区 (Other) 15 - n2Day
-  - 🌐 其他地区 (Other) 16 - n2Day
-  - 🌐 其他地区 (Other) 17 - n2Day
-  - 🌐 其他地区 (Other) 18 - n2Day
-  - 🌐 其他地区 (Other) 19 - n2Day
 rules:
 - MATCH,PROXIES
