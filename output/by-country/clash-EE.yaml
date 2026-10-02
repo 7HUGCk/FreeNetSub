@@ -33,17 +33,18 @@ proxies:
   servername: estproxy4.lockdwn.com
 - name: 🇪🇪 EE 04 - n2Day
   type: vless
-  server: 94.183.170.135
-  port: 443
-  uuid: 06c4e938-2954-478f-a870-ca1b163e30e9
+  server: 141.0.187.16
+  port: 2083
+  uuid: fba73f98-777a-42a6-83c0-7d1f6f070e8d
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  servername: crt.dodopanel.biz
   network: ws
   ws-opts:
-    path: /
+    path: /vless-ws
     headers:
-      Host: 94.183.170.135
+      Host: 141.0.187.16
 - name: 🇪🇪 EE 05 - n2Day
   type: vless
   server: 94.183.170.135
@@ -57,20 +58,6 @@ proxies:
     path: /
     headers:
       Host: 94.183.170.135
-- name: 🇪🇪 EE 06 - n2Day
-  type: vless
-  server: 141.0.187.16
-  port: 2083
-  uuid: fba73f98-777a-42a6-83c0-7d1f6f070e8d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: crt.dodopanel.biz
-  network: ws
-  ws-opts:
-    path: /vless-ws
-    headers:
-      Host: 141.0.187.16
 proxy-groups:
 - name: PROXIES
   type: select
@@ -81,7 +68,6 @@ proxy-groups:
   - 🇪🇪 EE 03 - n2Day
   - 🇪🇪 EE 04 - n2Day
   - 🇪🇪 EE 05 - n2Day
-  - 🇪🇪 EE 06 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -92,6 +78,5 @@ proxy-groups:
   - 🇪🇪 EE 03 - n2Day
   - 🇪🇪 EE 04 - n2Day
   - 🇪🇪 EE 05 - n2Day
-  - 🇪🇪 EE 06 - n2Day
 rules:
 - MATCH,PROXIES
