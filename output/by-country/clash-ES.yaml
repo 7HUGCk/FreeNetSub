@@ -14,54 +14,25 @@ proxies:
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ''
+  servername: mygptagent.org
   network: ws
   ws-opts:
     path: /linkvws
     headers:
-      Host: ''
+      Host: mygptagent.org
 - name: 🇪🇸 西班牙 (Spain) 02 - n2Day
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 34.175.44.113
+  port: 443
+  uuid: 0b4b1548-c7ca-45a5-9096-6c3cc4b1c43b
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: iI9J--AfPKCXbVle3Om-WMn_g-3bO3SsVzUCNtwUkU0
+  servername: www.cloudflare.com
+  client-fingerprint: ios
 - name: 🇪🇸 西班牙 (Spain) 03 - n2Day
-  type: ss
-  server: 140.174.184.5
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 04 - n2Day
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 05 - n2Day
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 06 - n2Day
-  type: ss
-  server: 108.181.121.226
-  port: 8388
-  cipher: chacha20-ietf-poly1305
-  password: WSyL4XTwNsdv
-  udp: true
-- name: 🇪🇸 西班牙 (Spain) 07 - n2Day
   type: vmess
   server: mygptagent.org
   port: 443
@@ -77,24 +48,14 @@ proxies:
     path: /linkvws
     headers:
       Host: mygptagent.org
-- name: 🇪🇸 西班牙 (Spain) 08 - n2Day
+- name: 🇪🇸 西班牙 (Spain) 04 - n2Day
   type: ss
-  server: 140.174.184.5
+  server: 108.181.121.226
   port: 8388
   cipher: chacha20-ietf-poly1305
-  password: qItG8SueYQcP
+  password: WSyL4XTwNsdv
   udp: true
-- name: 🇪🇸 西班牙 (Spain) 09 - n2Day
-  type: vmess
-  server: 66.163.118.73
-  port: 22324
-  uuid: 04621bae-ab36-11ec-b909-0242ac120002
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇪🇸 西班牙 (Spain) 10 - n2Day
+- name: 🇪🇸 西班牙 (Spain) 05 - n2Day
   type: vmess
   server: mygptagent.org
   port: 443
@@ -110,6 +71,37 @@ proxies:
     path: /linkvws
     headers:
       Host: ''
+- name: 🇪🇸 西班牙 (Spain) 06 - n2Day
+  type: vmess
+  server: 66.163.118.73
+  port: 22324
+  uuid: 04621bae-ab36-11ec-b909-0242ac120002
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇪🇸 西班牙 (Spain) 07 - n2Day
+  type: ss
+  server: 140.174.184.5
+  port: 8388
+  cipher: chacha20-ietf-poly1305
+  password: qItG8SueYQcP
+  udp: true
+- name: 🇪🇸 西班牙 (Spain) 08 - n2Day
+  type: vless
+  server: 31.57.190.62
+  port: 443
+  uuid: b1c31d36-c6b5-414b-88d2-9e24e7bfcca3
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: www.nihaoyun.top
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: www.nihaoyun.top
 proxy-groups:
 - name: PROXIES
   type: select
@@ -123,8 +115,6 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 06 - n2Day
   - 🇪🇸 西班牙 (Spain) 07 - n2Day
   - 🇪🇸 西班牙 (Spain) 08 - n2Day
-  - 🇪🇸 西班牙 (Spain) 09 - n2Day
-  - 🇪🇸 西班牙 (Spain) 10 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -138,7 +128,5 @@ proxy-groups:
   - 🇪🇸 西班牙 (Spain) 06 - n2Day
   - 🇪🇸 西班牙 (Spain) 07 - n2Day
   - 🇪🇸 西班牙 (Spain) 08 - n2Day
-  - 🇪🇸 西班牙 (Spain) 09 - n2Day
-  - 🇪🇸 西班牙 (Spain) 10 - n2Day
 rules:
 - MATCH,PROXIES
