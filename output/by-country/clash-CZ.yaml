@@ -32,6 +32,34 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
+- name: 🇨🇿 CZ 03 - n2Day
+  type: vless
+  server: 104.26.12.54
+  port: 8443
+  uuid: 31aa0950-eb19-45ff-94a2-af416deb3b90
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: square-salad-ebde.zdfgvccfguuyggg.workers.dev
+  network: ws
+  ws-opts:
+    path: /eyJqdW5rIjoiZm5INktPV0lGcHI1NjNSOSIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbXX0?ed=8443
+    headers:
+      Host: square-salad-ebde.zdfgvccfguuyggg.workers.dev
+- name: 🇨🇿 CZ 04 - n2Day
+  type: vless
+  server: 172.67.155.231
+  port: 2053
+  uuid: ef23616d-8a9d-4b22-b2f5-9bda864de179
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: INDEX.Arcane509.Workers.DEV
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: index.arcane509.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
@@ -39,6 +67,8 @@ proxy-groups:
   - AUTO
   - 🇨🇿 CZ 01 - n2Day
   - 🇨🇿 CZ 02 - n2Day
+  - 🇨🇿 CZ 03 - n2Day
+  - 🇨🇿 CZ 04 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -46,5 +76,7 @@ proxy-groups:
   proxies:
   - 🇨🇿 CZ 01 - n2Day
   - 🇨🇿 CZ 02 - n2Day
+  - 🇨🇿 CZ 03 - n2Day
+  - 🇨🇿 CZ 04 - n2Day
 rules:
 - MATCH,PROXIES
