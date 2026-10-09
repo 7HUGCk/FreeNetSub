@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🇵🇱 PL 01 - n2Day
   type: vless
-  server: 2.26.225.89
+  server: pl.flen-vpn.xyz
   port: 8443
   uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
   udp: true
@@ -15,26 +15,26 @@ proxies:
   servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 02 - n2Day
   type: vless
-  server: 95.85.253.241
-  port: 2053
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 95.85.253.241
+  servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 03 - n2Day
   type: vless
-  server: 95.85.253.241
-  port: 2053
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
+  server: 2.26.225.89
+  port: 8443
+  uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: 95.85.253.241
+  servername: pl.flen-vpn.xyz
 - name: 🇵🇱 PL 04 - n2Day
   type: vless
   server: 95.85.253.241
-  port: 2083
+  port: 2087
   uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
   udp: true
   tls: true
@@ -61,33 +61,6 @@ proxies:
 - name: 🇵🇱 PL 07 - n2Day
   type: vless
   server: 95.85.253.241
-  port: 2087
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 08 - n2Day
-  type: vless
-  server: 95.85.253.241
-  port: 2083
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 09 - n2Day
-  type: vless
-  server: 95.85.253.241
-  port: 2087
-  uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: 95.85.253.241
-- name: 🇵🇱 PL 10 - n2Day
-  type: vless
-  server: 95.85.253.241
   port: 2053
   uuid: ee0a38e3-d148-48ac-ba99-5133446c2377
   udp: true
@@ -106,9 +79,6 @@ proxy-groups:
   - 🇵🇱 PL 05 - n2Day
   - 🇵🇱 PL 06 - n2Day
   - 🇵🇱 PL 07 - n2Day
-  - 🇵🇱 PL 08 - n2Day
-  - 🇵🇱 PL 09 - n2Day
-  - 🇵🇱 PL 10 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -121,8 +91,5 @@ proxy-groups:
   - 🇵🇱 PL 05 - n2Day
   - 🇵🇱 PL 06 - n2Day
   - 🇵🇱 PL 07 - n2Day
-  - 🇵🇱 PL 08 - n2Day
-  - 🇵🇱 PL 09 - n2Day
-  - 🇵🇱 PL 10 - n2Day
 rules:
 - MATCH,PROXIES
