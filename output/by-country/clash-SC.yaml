@@ -28,6 +28,22 @@ proxies:
 - name: 🇸🇨 SC 03 - n2Day
   type: vless
   server: 45.137.43.168
+  port: 10443
+  uuid: b4cc503a-c352-4775-85ad-fc982086884a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 04 - n2Day
+  type: vless
+  server: 45.137.43.168
+  port: 10443
+  uuid: b4cc503a-c352-4775-85ad-fc982086884a
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇸🇨 SC 05 - n2Day
+  type: vless
+  server: 45.137.43.168
   port: 14430
   uuid: b4cc503a-c352-4775-85ad-fc982086884a
   udp: true
@@ -46,6 +62,8 @@ proxy-groups:
   - 🇸🇨 SC 01 - n2Day
   - 🇸🇨 SC 02 - n2Day
   - 🇸🇨 SC 03 - n2Day
+  - 🇸🇨 SC 04 - n2Day
+  - 🇸🇨 SC 05 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -54,5 +72,7 @@ proxy-groups:
   - 🇸🇨 SC 01 - n2Day
   - 🇸🇨 SC 02 - n2Day
   - 🇸🇨 SC 03 - n2Day
+  - 🇸🇨 SC 04 - n2Day
+  - 🇸🇨 SC 05 - n2Day
 rules:
 - MATCH,PROXIES
