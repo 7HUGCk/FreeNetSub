@@ -27,7 +27,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 03 - n2Day
   type: vless
   server: 95.216.27.15
@@ -39,7 +39,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: firefox
+  client-fingerprint: chrome
 - name: 🇫🇮 FI 04 - n2Day
   type: vless
   server: 95.216.27.15
@@ -51,7 +51,7 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: firefox
 - name: 🇫🇮 FI 05 - n2Day
   type: vless
   server: 95.216.27.15
@@ -63,20 +63,8 @@ proxies:
   reality-opts:
     public-key: 4nfogj5mHqNowtSn_2sXS3xTX8vcH75rFEU2BWvyekM
   servername: www.google.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇫🇮 FI 06 - n2Day
-  type: vless
-  server: mci1.amir12.ir
-  port: 1222
-  uuid: 36c3dcc2-17b6-4478-b8a7-3978e6d5afe9
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: zpLKK8HuwXJDH9D0O3t5Z_tO3ajkj7VRtXdr6UGy1zE
-  servername: play.google.com
-  client-fingerprint: chrome
-- name: 🇫🇮 FI 07 - n2Day
   type: vless
   server: 45.144.234.157
   port: 14430
@@ -100,7 +88,6 @@ proxy-groups:
   - 🇫🇮 FI 04 - n2Day
   - 🇫🇮 FI 05 - n2Day
   - 🇫🇮 FI 06 - n2Day
-  - 🇫🇮 FI 07 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -112,6 +99,5 @@ proxy-groups:
   - 🇫🇮 FI 04 - n2Day
   - 🇫🇮 FI 05 - n2Day
   - 🇫🇮 FI 06 - n2Day
-  - 🇫🇮 FI 07 - n2Day
 rules:
 - MATCH,PROXIES
