@@ -6,7 +6,7 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - n2Day
   type: vless
-  server: 188.114.97.6
+  server: 104.18.43.174
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -15,52 +15,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
 - name: 🌐 其他地区 (Other) 02 - n2Day
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---config_Qavi
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 03 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFFARANGI
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 04 - n2Day
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: 5504eaa8-1395-402f-8e0e-75ecd762e627
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: server5.9966338.xyz
-  network: ws
-  ws-opts:
-    path: /drsukitgreiusweqa9otrh983
-    headers:
-      Host: server5.9966338.xyz
-- name: 🌐 其他地区 (Other) 05 - n2Day
   type: vless
   server: 188.114.97.6
   port: 443
@@ -74,9 +32,36 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 06 - n2Day
+- name: 🌐 其他地区 (Other) 03 - n2Day
   type: vless
-  server: 172.64.152.241
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi?ed#Telegram---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN---@GHOFLSHCAN
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 04 - n2Day
+  type: vless
+  server: 172.64.144.82
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /+
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 05 - n2Day
+  type: vless
+  server: 104.18.37.247
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -85,38 +70,10 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp#TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512
+    path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 07 - n2Day
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 08 - n2Day
-  type: vless
-  server: 172.67.155.65
-  port: 8443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 09 - n2Day
+- name: 🌐 其他地区 (Other) 06 - n2Day
   type: vless
   server: 172.64.152.241
   port: 443
@@ -130,329 +87,7 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 10 - n2Day
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 11 - n2Day
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 12 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 13 - n2Day
-  type: vless
-  server: 104.19.4.149
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 14 - n2Day
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 15 - n2Day
-  type: vless
-  server: 104.17.50.227
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 16 - n2Day
-  type: vless
-  server: 172.64.152.241
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 17 - n2Day
-  type: vless
-  server: www.5199dy.com
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 18 - n2Day
-  type: vless
-  server: 104.18.37.247
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 19 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=chrome
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 20 - n2Day
-  type: vless
-  server: 104.16.111.102
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 21 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 22 - n2Day
-  type: vless
-  server: 104.18.35.86
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 23 - n2Day
-  type: vless
-  server: 104.21.93.182
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 24 - n2Day
-  type: vless
-  server: cf.130519.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 25 - n2Day
-  type: vless
-  server: 104.18.35.86
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 26 - n2Day
-  type: vless
-  server: 104.16.10.135
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#/?----?ed=512
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 27 - n2Day
-  type: vless
-  server: cf.090227.xyz
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 28 - n2Day
-  type: vmess
-  server: node8.liudonghoe.com
-  port: 443
-  uuid: 47050e4e-965d-41ca-976d-73c1f11e6905
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: node8.liudonghoe.com
-  network: ws
-  ws-opts:
-    path: /hoe8
-    headers:
-      Host: node8.liudonghoe.com
-- name: 🌐 其他地区 (Other) 29 - n2Day
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 30 - n2Day
-  type: vless
-  server: 8.35.211.236
-  port: 443
-  uuid: b940be1b-3998-45d2-bf7b-06e7b6c4987a
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: kkkk-bq7.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: kkkk-bq7.pages.dev
-- name: 🌐 其他地区 (Other) 31 - n2Day
-  type: vless
-  server: 162.159.250.29
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 32 - n2Day
-  type: vless
-  server: 172.64.144.82
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 33 - n2Day
+- name: 🌐 其他地区 (Other) 07 - n2Day
   type: vless
   server: 172.64.153.153
   port: 443
@@ -466,216 +101,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 34 - n2Day
-  type: vless
-  server: 104.26.4.2
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 35 - n2Day
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 36 - n2Day
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🌐 其他地区 (Other) 37 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 38 - n2Day
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 39 - n2Day
-  type: vless
-  server: 104.18.43.174
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 40 - n2Day
-  type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 41 - n2Day
-  type: vless
-  server: b2n.ir
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 42 - n2Day
-  type: vless
-  server: 188.114.98.0
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 43 - n2Day
-  type: vless
-  server: 104.21.91.244
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---mehrosaboran
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 44 - n2Day
-  type: vless
-  server: 104.21.93.182
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 45 - n2Day
-  type: vless
-  server: 104.21.71.249
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 46 - n2Day
-  type: vless
-  server: 172.64.144.82
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 47 - n2Day
-  type: vless
-  server: 172.64.146.66
-  port: 443
-  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ex3r.qzz.io
-  network: ws
-  ws-opts:
-    path: /sg-orcl
-    headers:
-      Host: ex3r.qzz.io
-- name: 🌐 其他地区 (Other) 48 - n2Day
-  type: vless
-  server: 104.21.71.249
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 49 - n2Day
+- name: 🌐 其他地区 (Other) 08 - n2Day
   type: vless
   server: 188.114.97.6
   port: 443
@@ -686,10 +112,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132?ed
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 50 - n2Day
+- name: 🌐 其他地区 (Other) 09 - n2Day
   type: vless
   server: 104.18.40.100
   port: 443
@@ -703,9 +129,79 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 51 - n2Day
+- name: 🌐 其他地区 (Other) 10 - n2Day
   type: vless
-  server: 172.66.47.10
+  server: 162.159.192.125
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 11 - n2Day
+  type: vless
+  server: 104.16.10.48
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 12 - n2Day
+  type: vless
+  server: 172.64.158.170
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 13 - n2Day
+  type: vless
+  server: b2n.ir
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 14 - n2Day
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---DailyConfigs
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 15 - n2Day
+  type: vless
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -717,9 +213,9 @@ proxies:
     path: /cart/docs/www/proxyip=108.160.132.132
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 52 - n2Day
+- name: 🌐 其他地区 (Other) 16 - n2Day
   type: vless
-  server: cf.877774.xyz
+  server: 188.114.97.6
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -728,10 +224,52 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132+
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 53 - n2Day
+- name: 🌐 其他地区 (Other) 17 - n2Day
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 18 - n2Day
+  type: vless
+  server: 104.17.50.227
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 19 - n2Day
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 20 - n2Day
   type: vless
   server: 104.18.47.73
   port: 443
@@ -745,49 +283,7 @@ proxies:
     path: /
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 54 - n2Day
-  type: vless
-  server: 104.18.37.247
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 55 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: a.cwvps.eu.org
-  network: ws
-  ws-opts:
-    path: /ws#TELEGRAM--pirozi_ArGaP?ed=2560
-    headers:
-      Host: a.cwvps.eu.org
-- name: 🌐 其他地区 (Other) 56 - n2Day
-  type: vless
-  server: 172.67.172.155
-  port: 443
-  uuid: e6df2095-a73c-4043-8693-8d5a03686870
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: lucasjow.us.ci
-  network: ws
-  ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132
-    headers:
-      Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 57 - n2Day
+- name: 🌐 其他地区 (Other) 21 - n2Day
   type: vless
   server: 104.18.41.190
   port: 443
@@ -801,9 +297,22 @@ proxies:
     path: /fp
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 58 - n2Day
+- name: 🌐 其他地区 (Other) 22 - n2Day
   type: vless
-  server: cf.877774.xyz
+  server: 104.18.0.181
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 23 - n2Day
+  type: vless
+  server: b2n.ir
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -812,12 +321,25 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132fp=qq
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 59 - n2Day
+- name: 🌐 其他地区 (Other) 24 - n2Day
   type: vless
-  server: cf.877774.xyz
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 25 - n2Day
+  type: vless
+  server: 104.21.91.244
   port: 443
   uuid: e6df2095-a73c-4043-8693-8d5a03686870
   udp: true
@@ -826,10 +348,10 @@ proxies:
   servername: lucasjow.us.ci
   network: ws
   ws-opts:
-    path: /cart/docs/www/proxyip=108.160.132.132+
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
     headers:
       Host: lucasjow.us.ci
-- name: 🌐 其他地区 (Other) 60 - n2Day
+- name: 🌐 其他地区 (Other) 26 - n2Day
   type: vless
   server: 172.64.146.66
   port: 443
@@ -841,6 +363,132 @@ proxies:
   network: ws
   ws-opts:
     path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 27 - n2Day
+  type: vless
+  server: 104.21.71.249
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 28 - n2Day
+  type: vless
+  server: 162.159.250.29
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 29 - n2Day
+  type: vless
+  server: b2n.ir
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 30 - n2Day
+  type: vless
+  server: 162.159.250.29
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132?ed#Telegram---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP---pirozi_ArGaP
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 31 - n2Day
+  type: vless
+  server: 172.67.172.155
+  port: 443
+  uuid: e6df2095-a73c-4043-8693-8d5a03686870
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: lucasjow.us.ci
+  network: ws
+  ws-opts:
+    path: /cart/docs/www/proxyip=108.160.132.132
+    headers:
+      Host: lucasjow.us.ci
+- name: 🌐 其他地区 (Other) 32 - n2Day
+  type: vless
+  server: 162.159.192.125
+  port: 443
+  uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: a.cwvps.eu.org
+  network: ws
+  ws-opts:
+    path: /ws
+    headers:
+      Host: a.cwvps.eu.org
+- name: 🌐 其他地区 (Other) 33 - n2Day
+  type: vless
+  server: 104.18.37.127
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 34 - n2Day
+  type: vless
+  server: 188.114.97.6
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 35 - n2Day
+  type: vless
+  server: 104.26.4.2
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
     headers:
       Host: ccc.010304.xyz
 proxy-groups:
@@ -883,31 +531,6 @@ proxy-groups:
   - 🌐 其他地区 (Other) 33 - n2Day
   - 🌐 其他地区 (Other) 34 - n2Day
   - 🌐 其他地区 (Other) 35 - n2Day
-  - 🌐 其他地区 (Other) 36 - n2Day
-  - 🌐 其他地区 (Other) 37 - n2Day
-  - 🌐 其他地区 (Other) 38 - n2Day
-  - 🌐 其他地区 (Other) 39 - n2Day
-  - 🌐 其他地区 (Other) 40 - n2Day
-  - 🌐 其他地区 (Other) 41 - n2Day
-  - 🌐 其他地区 (Other) 42 - n2Day
-  - 🌐 其他地区 (Other) 43 - n2Day
-  - 🌐 其他地区 (Other) 44 - n2Day
-  - 🌐 其他地区 (Other) 45 - n2Day
-  - 🌐 其他地区 (Other) 46 - n2Day
-  - 🌐 其他地区 (Other) 47 - n2Day
-  - 🌐 其他地区 (Other) 48 - n2Day
-  - 🌐 其他地区 (Other) 49 - n2Day
-  - 🌐 其他地区 (Other) 50 - n2Day
-  - 🌐 其他地区 (Other) 51 - n2Day
-  - 🌐 其他地区 (Other) 52 - n2Day
-  - 🌐 其他地区 (Other) 53 - n2Day
-  - 🌐 其他地区 (Other) 54 - n2Day
-  - 🌐 其他地区 (Other) 55 - n2Day
-  - 🌐 其他地区 (Other) 56 - n2Day
-  - 🌐 其他地区 (Other) 57 - n2Day
-  - 🌐 其他地区 (Other) 58 - n2Day
-  - 🌐 其他地区 (Other) 59 - n2Day
-  - 🌐 其他地区 (Other) 60 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -948,30 +571,5 @@ proxy-groups:
   - 🌐 其他地区 (Other) 33 - n2Day
   - 🌐 其他地区 (Other) 34 - n2Day
   - 🌐 其他地区 (Other) 35 - n2Day
-  - 🌐 其他地区 (Other) 36 - n2Day
-  - 🌐 其他地区 (Other) 37 - n2Day
-  - 🌐 其他地区 (Other) 38 - n2Day
-  - 🌐 其他地区 (Other) 39 - n2Day
-  - 🌐 其他地区 (Other) 40 - n2Day
-  - 🌐 其他地区 (Other) 41 - n2Day
-  - 🌐 其他地区 (Other) 42 - n2Day
-  - 🌐 其他地区 (Other) 43 - n2Day
-  - 🌐 其他地区 (Other) 44 - n2Day
-  - 🌐 其他地区 (Other) 45 - n2Day
-  - 🌐 其他地区 (Other) 46 - n2Day
-  - 🌐 其他地区 (Other) 47 - n2Day
-  - 🌐 其他地区 (Other) 48 - n2Day
-  - 🌐 其他地区 (Other) 49 - n2Day
-  - 🌐 其他地区 (Other) 50 - n2Day
-  - 🌐 其他地区 (Other) 51 - n2Day
-  - 🌐 其他地区 (Other) 52 - n2Day
-  - 🌐 其他地区 (Other) 53 - n2Day
-  - 🌐 其他地区 (Other) 54 - n2Day
-  - 🌐 其他地区 (Other) 55 - n2Day
-  - 🌐 其他地区 (Other) 56 - n2Day
-  - 🌐 其他地区 (Other) 57 - n2Day
-  - 🌐 其他地区 (Other) 58 - n2Day
-  - 🌐 其他地区 (Other) 59 - n2Day
-  - 🌐 其他地区 (Other) 60 - n2Day
 rules:
 - MATCH,PROXIES
