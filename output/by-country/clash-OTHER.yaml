@@ -6,48 +6,48 @@ log-level: info
 proxies:
 - name: 🌐 其他地区 (Other) 01 - n2Day
   type: vless
-  server: 104.19.33.25
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 02 - n2Day
-  type: vless
-  server: 104.18.45.38
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 03 - n2Day
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  server: 104.26.12.31
+  port: 8080
+  uuid: 3e06b1db-2efb-446e-ba2d-68850dfd2f9d
   udp: true
   tls: false
   skip-cert-verify: true
   network: ws
   ws-opts:
-    path: /fp
+    path: /
     headers:
-      Host: hhlfy.twiladaphne.ndjp.net
+      Host: bdfba-cool-tree-b580.v8fz4kbv.workers.dev
+- name: 🌐 其他地区 (Other) 02 - n2Day
+  type: vless
+  server: 104.27.110.37
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 03 - n2Day
+  type: vless
+  server: 104.18.33.8
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 04 - n2Day
   type: vless
-  server: 104.18.33.100
+  server: 104.17.209.75
   port: 443
   uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
@@ -61,7 +61,21 @@ proxies:
       Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 05 - n2Day
   type: vless
-  server: ccc.010304.xyz
+  server: 104.24.0.1
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 06 - n2Day
+  type: vless
+  server: 172.64.152.241
   port: 443
   uuid: d342d11e-d224-4463-b982-532309285094
   udp: true
@@ -70,40 +84,26 @@ proxies:
   servername: ccc.010304.xyz
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /fpfp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 06 - n2Day
-  type: vless
-  server: 104.21.6.186
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 07 - n2Day
   type: vless
-  server: 104.17.50.53
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  server: 188.114.97.6
+  port: 2096
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: levikoconfig.levikogjgfdd.ir
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /
     headers:
-      Host: jp3.yohototo.top
+      Host: levikoconfig.levikogjgfdd.ir
 - name: 🌐 其他地区 (Other) 08 - n2Day
   type: vless
-  server: 172.64.153.116
+  server: 104.19.145.48
   port: 443
   uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
@@ -117,7 +117,7 @@ proxies:
       Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 09 - n2Day
   type: vless
-  server: 104.16.111.195
+  server: 104.21.0.87
   port: 443
   uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
   udp: true
@@ -131,338 +131,33 @@ proxies:
       Host: jp3.yohototo.top
 - name: 🌐 其他地区 (Other) 10 - n2Day
   type: vless
-  server: 172.64.146.66
+  server: 104.21.14.232
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: nuclear.us.kg
   network: ws
   ws-opts:
-    path: /
+    path: /free/1.226.227.169:50001
     headers:
-      Host: ccc.010304.xyz
+      Host: nuclear.us.kg
 - name: 🌐 其他地区 (Other) 11 - n2Day
   type: vless
-  server: 172.64.152.241
+  server: 172.64.146.113
   port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: ccc.010304.xyz
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /fp=chrome
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: ccc.010304.xyz
+      Host: tamoai.ccwu.cc
 - name: 🌐 其他地区 (Other) 12 - n2Day
-  type: vless
-  server: 104.18.45.38
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 13 - n2Day
-  type: vless
-  server: 104.18.45.38
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 14 - n2Day
-  type: vless
-  server: 172.64.190.13
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 15 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 16 - n2Day
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 17 - n2Day
-  type: vless
-  server: 104.16.145.61
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 18 - n2Day
-  type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 19 - n2Day
-  type: vless
-  server: 104.16.10.56
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 20 - n2Day
-  type: vless
-  server: 188.114.97.6
-  port: 8080
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /sg-melbi
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 21 - n2Day
-  type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 22 - n2Day
-  type: vless
-  server: 104.18.45.190
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 23 - n2Day
-  type: vless
-  server: 8.47.69.60
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 24 - n2Day
-  type: vless
-  server: 104.17.158.34
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 25 - n2Day
-  type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 26 - n2Day
-  type: vless
-  server: 172.64.150.28
-  port: 2082
-  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
-  udp: true
-  tls: false
-  skip-cert-verify: true
-  network: ws
-  ws-opts:
-    path: /fp
-    headers:
-      Host: hhlfy.twiladaphne.ndjp.net
-- name: 🌐 其他地区 (Other) 27 - n2Day
-  type: vless
-  server: 104.19.145.193
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 28 - n2Day
-  type: vless
-  server: 172.64.158.170
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=chrome
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 29 - n2Day
-  type: vless
-  server: 104.18.33.131
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 30 - n2Day
-  type: vless
-  server: 104.17.177.46
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 31 - n2Day
-  type: vless
-  server: 104.21.0.87
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 32 - n2Day
-  type: vless
-  server: 104.19.50.221
-  port: 443
-  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: tamoai.ccwu.cc
-  network: ws
-  ws-opts:
-    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
-    headers:
-      Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 33 - n2Day
-  type: vless
-  server: 104.18.37.127
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 34 - n2Day
   type: vless
   server: cf.090227.xyz
   port: 443
@@ -476,93 +171,9 @@ proxies:
     path: /fp=chrome
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 35 - n2Day
+- name: 🌐 其他地区 (Other) 13 - n2Day
   type: vless
-  server: 104.16.10.104
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 36 - n2Day
-  type: vless
-  server: 104.21.221.158
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /fp=unsafe
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 37 - n2Day
-  type: vless
-  server: 104.19.12.94
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 38 - n2Day
-  type: vless
-  server: 104.16.10.84
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 39 - n2Day
-  type: vless
-  server: 104.18.41.190
-  port: 443
-  uuid: d342d11e-d224-4463-b982-532309285094
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ccc.010304.xyz
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 40 - n2Day
-  type: vless
-  server: 172.67.156.147
-  port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: jp3.yohototo.top
-  network: ws
-  ws-opts:
-    path: /tyxyws
-    headers:
-      Host: jp3.yohototo.top
-- name: 🌐 其他地区 (Other) 41 - n2Day
-  type: vless
-  server: 104.17.52.156
+  server: 104.19.2.99
   port: 443
   uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
@@ -574,7 +185,77 @@ proxies:
     path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
       Host: tamoai.ccwu.cc
-- name: 🌐 其他地区 (Other) 42 - n2Day
+- name: 🌐 其他地区 (Other) 14 - n2Day
+  type: vless
+  server: 172.67.155.1
+  port: 443
+  uuid: 00db64cf-4ea8-1a65-b9f6-97ca00000022
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ehsan22r.6l-l-gcxlkszilqjjg5fm4tyjftw9sv.workers.dev
+  network: ws
+  ws-opts:
+    path: /sync
+    headers:
+      Host: ehsan22r.6l-l-gcxlkszilqjjg5fm4tyjftw9sv.workers.dev
+- name: 🌐 其他地区 (Other) 15 - n2Day
+  type: vless
+  server: 104.17.103.187
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 16 - n2Day
+  type: vless
+  server: 172.67.152.148
+  port: 443
+  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf-socks.caoyuwu.eu.org
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
+    headers:
+      Host: cf-socks.caoyuwu.eu.org
+- name: 🌐 其他地区 (Other) 17 - n2Day
+  type: vless
+  server: 188.114.97.6
+  port: 2087
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+- name: 🌐 其他地区 (Other) 18 - n2Day
+  type: vless
+  server: 172.67.160.192
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/103.101.153.32:443
+    headers:
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 19 - n2Day
   type: vless
   server: 104.17.56.124
   port: 443
@@ -588,7 +269,758 @@ proxies:
     path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
       Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 20 - n2Day
+  type: vless
+  server: 162.159.254.3
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 21 - n2Day
+  type: vless
+  server: 104.16.10.9
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 22 - n2Day
+  type: vless
+  server: 104.18.35.86
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 23 - n2Day
+  type: vless
+  server: 8.35.211.169
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 24 - n2Day
+  type: vless
+  server: 8.35.211.24
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 25 - n2Day
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 26 - n2Day
+  type: vless
+  server: 8.47.69.60
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 27 - n2Day
+  type: vless
+  server: 104.17.19.142
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 28 - n2Day
+  type: vless
+  server: 104.17.216.31
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 29 - n2Day
+  type: vless
+  server: 104.16.111.102
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 30 - n2Day
+  type: vless
+  server: 172.64.144.198
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 31 - n2Day
+  type: vless
+  server: 172.67.145.14
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 32 - n2Day
+  type: vless
+  server: 104.18.33.194
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 33 - n2Day
+  type: vless
+  server: 104.19.145.193
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 34 - n2Day
+  type: vless
+  server: 172.64.154.193
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 35 - n2Day
+  type: vless
+  server: 172.67.71.187
+  port: 8080
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /sg-melbi
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 36 - n2Day
+  type: vless
+  server: 104.21.221.158
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 37 - n2Day
+  type: vless
+  server: 104.18.35.86
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 38 - n2Day
+  type: vless
+  server: 104.17.183.136
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 39 - n2Day
+  type: vless
+  server: 172.64.153.116
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 40 - n2Day
+  type: vless
+  server: 104.18.33.134
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 41 - n2Day
+  type: vless
+  server: 172.64.159.104
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 42 - n2Day
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ex3r.qzz.io
+  network: ws
+  ws-opts:
+    path: /sg-orcl
+    headers:
+      Host: ex3r.qzz.io
 - name: 🌐 其他地区 (Other) 43 - n2Day
+  type: vless
+  server: 172.64.158.170
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 44 - n2Day
+  type: vless
+  server: 172.64.152.241
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 45 - n2Day
+  type: vless
+  server: 104.18.41.190
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 46 - n2Day
+  type: vless
+  server: 104.18.35.42
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 47 - n2Day
+  type: vless
+  server: 172.64.150.28
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 48 - n2Day
+  type: vless
+  server: 8.47.69.60
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 49 - n2Day
+  type: vless
+  server: 104.18.0.1
+  port: 443
+  uuid: 3ccba794-1c6d-48a8-acf2-f5caf0e69d86
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: all.speedtest03.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: all.speedtest03.ccwu.cc
+- name: 🌐 其他地区 (Other) 50 - n2Day
+  type: vless
+  server: cf.090227.xyz
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chromefp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 51 - n2Day
+  type: vless
+  server: 172.64.146.66
+  port: 443
+  uuid: 16e80f38-e97e-4b14-ba89-77d87a3e637f
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ex3r.qzz.io
+  network: ws
+  ws-opts:
+    path: /sg-orcl
+    headers:
+      Host: ex3r.qzz.io
+- name: 🌐 其他地区 (Other) 52 - n2Day
+  type: vless
+  server: 104.17.177.46
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 53 - n2Day
+  type: vless
+  server: cf-socks.caoyuwu.eu.org
+  port: 443
+  uuid: 9cdcbaf0-d244-4f37-b227-90166e43f5b5
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: cf-socks.caoyuwu.eu.org
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: cf-socks.caoyuwu.eu.org
+- name: 🌐 其他地区 (Other) 54 - n2Day
+  type: vless
+  server: 104.21.221.158
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=unsafe
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 55 - n2Day
+  type: vless
+  server: 172.64.149.65
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 56 - n2Day
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 57 - n2Day
+  type: vless
+  server: 172.67.217.240
+  port: 443
+  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: jp3.yohototo.top
+  network: ws
+  ws-opts:
+    path: /tyxyws
+    headers:
+      Host: jp3.yohototo.top
+- name: 🌐 其他地区 (Other) 58 - n2Day
+  type: vless
+  server: 172.64.67.148
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 59 - n2Day
+  type: vless
+  server: 172.64.67.41
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 60 - n2Day
+  type: vless
+  server: 172.67.160.192
+  port: 443
+  uuid: 2bcfbfba-b446-4ad5-93ad-72af9e008f61
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: nuclear.us.kg
+  network: ws
+  ws-opts:
+    path: /free/1.226.227.169:50001
+    headers:
+      Host: nuclear.us.kg
+- name: 🌐 其他地区 (Other) 61 - n2Day
+  type: vless
+  server: 104.18.45.190
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 62 - n2Day
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 63 - n2Day
+  type: vless
+  server: 172.64.146.204
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 64 - n2Day
+  type: vless
+  server: 104.18.45.38
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 65 - n2Day
+  type: vless
+  server: 104.21.221.158
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 66 - n2Day
+  type: vless
+  server: chatgpt.com
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /fp=chrome
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 67 - n2Day
+  type: vless
+  server: 104.17.213.236
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 68 - n2Day
+  type: vless
+  server: 104.17.148.182
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 69 - n2Day
+  type: vless
+  server: 8.35.211.23
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 70 - n2Day
+  type: vless
+  server: 104.16.205.233
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 71 - n2Day
+  type: vless
+  server: 104.19.147.230
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 72 - n2Day
+  type: vless
+  server: 172.64.147.154
+  port: 443
+  uuid: 5dc15e15-f285-4a9d-959b-0e4fbdd77b63
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: powered-by-surena.configfarsi695fcfe8a2e58.workers.dev
+- name: 🌐 其他地区 (Other) 73 - n2Day
+  type: vless
+  server: 104.27.124.133
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 74 - n2Day
   type: vless
   server: 172.64.158.170
   port: 443
@@ -602,20 +1034,131 @@ proxies:
     path: /?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560
     headers:
       Host: ccc.010304.xyz
-- name: 🌐 其他地区 (Other) 44 - n2Day
+- name: 🌐 其他地区 (Other) 75 - n2Day
   type: vless
-  server: 104.16.111.195
+  server: 104.17.162.11
+  port: 2082
+  uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b
+  udp: true
+  tls: false
+  skip-cert-verify: true
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: hhlfy.twiladaphne.ndjp.net
+- name: 🌐 其他地区 (Other) 76 - n2Day
+  type: vless
+  server: 104.16.247.19
   port: 443
-  uuid: 4e4f1f70-5e56-4a76-bb9d-db087f4690c4
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: jp3.yohototo.top
+  servername: tamoai.ccwu.cc
   network: ws
   ws-opts:
-    path: /tyxyws
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
     headers:
-      Host: jp3.yohototo.top
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 77 - n2Day
+  type: vless
+  server: 104.21.73.135
+  port: 443
+  uuid: 50414e45-4c5f-5a45-5553-7bac159e3b40
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: web-app-ji3j1z.app-wuuhuw.workers.dev
+  network: ws
+  ws-opts:
+    path: /api/ws
+    headers:
+      Host: web-app-ji3j1z.app-wuuhuw.workers.dev
+- name: 🌐 其他地区 (Other) 78 - n2Day
+  type: vless
+  server: 104.17.97.13
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 79 - n2Day
+  type: vless
+  server: 104.17.188.153
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 80 - n2Day
+  type: vless
+  server: 104.19.34.11
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
+- name: 🌐 其他地区 (Other) 81 - n2Day
+  type: vless
+  server: 188.114.97.6
+  port: 2053
+  uuid: 50414e45-4c5f-5a45-5553-6f51879c0594
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: levikoconfig.levikogjgfdd.ir
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: levikoconfig.levikogjgfdd.ir
+- name: 🌐 其他地区 (Other) 82 - n2Day
+  type: vless
+  server: 172.64.146.66
+  port: 443
+  uuid: d342d11e-d224-4463-b982-532309285094
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: ccc.010304.xyz
+  network: ws
+  ws-opts:
+    path: /
+    headers:
+      Host: ccc.010304.xyz
+- name: 🌐 其他地区 (Other) 83 - n2Day
+  type: vless
+  server: 104.18.33.3
+  port: 443
+  uuid: 45ceaca9-30f4-4035-85b7-8f83493911d8
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  servername: tamoai.ccwu.cc
+  network: ws
+  ws-opts:
+    path: /proxyip=163.192.47.40,47.57.181.17,34.83.245.149,4.155.83.212,64.227.62.172,24.144.68.139,161.35.232.123,107.170.248.68
+    headers:
+      Host: tamoai.ccwu.cc
 proxy-groups:
 - name: PROXIES
   type: select
@@ -665,6 +1208,45 @@ proxy-groups:
   - 🌐 其他地区 (Other) 42 - n2Day
   - 🌐 其他地区 (Other) 43 - n2Day
   - 🌐 其他地区 (Other) 44 - n2Day
+  - 🌐 其他地区 (Other) 45 - n2Day
+  - 🌐 其他地区 (Other) 46 - n2Day
+  - 🌐 其他地区 (Other) 47 - n2Day
+  - 🌐 其他地区 (Other) 48 - n2Day
+  - 🌐 其他地区 (Other) 49 - n2Day
+  - 🌐 其他地区 (Other) 50 - n2Day
+  - 🌐 其他地区 (Other) 51 - n2Day
+  - 🌐 其他地区 (Other) 52 - n2Day
+  - 🌐 其他地区 (Other) 53 - n2Day
+  - 🌐 其他地区 (Other) 54 - n2Day
+  - 🌐 其他地区 (Other) 55 - n2Day
+  - 🌐 其他地区 (Other) 56 - n2Day
+  - 🌐 其他地区 (Other) 57 - n2Day
+  - 🌐 其他地区 (Other) 58 - n2Day
+  - 🌐 其他地区 (Other) 59 - n2Day
+  - 🌐 其他地区 (Other) 60 - n2Day
+  - 🌐 其他地区 (Other) 61 - n2Day
+  - 🌐 其他地区 (Other) 62 - n2Day
+  - 🌐 其他地区 (Other) 63 - n2Day
+  - 🌐 其他地区 (Other) 64 - n2Day
+  - 🌐 其他地区 (Other) 65 - n2Day
+  - 🌐 其他地区 (Other) 66 - n2Day
+  - 🌐 其他地区 (Other) 67 - n2Day
+  - 🌐 其他地区 (Other) 68 - n2Day
+  - 🌐 其他地区 (Other) 69 - n2Day
+  - 🌐 其他地区 (Other) 70 - n2Day
+  - 🌐 其他地区 (Other) 71 - n2Day
+  - 🌐 其他地区 (Other) 72 - n2Day
+  - 🌐 其他地区 (Other) 73 - n2Day
+  - 🌐 其他地区 (Other) 74 - n2Day
+  - 🌐 其他地区 (Other) 75 - n2Day
+  - 🌐 其他地区 (Other) 76 - n2Day
+  - 🌐 其他地区 (Other) 77 - n2Day
+  - 🌐 其他地区 (Other) 78 - n2Day
+  - 🌐 其他地区 (Other) 79 - n2Day
+  - 🌐 其他地区 (Other) 80 - n2Day
+  - 🌐 其他地区 (Other) 81 - n2Day
+  - 🌐 其他地区 (Other) 82 - n2Day
+  - 🌐 其他地区 (Other) 83 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -714,5 +1296,44 @@ proxy-groups:
   - 🌐 其他地区 (Other) 42 - n2Day
   - 🌐 其他地区 (Other) 43 - n2Day
   - 🌐 其他地区 (Other) 44 - n2Day
+  - 🌐 其他地区 (Other) 45 - n2Day
+  - 🌐 其他地区 (Other) 46 - n2Day
+  - 🌐 其他地区 (Other) 47 - n2Day
+  - 🌐 其他地区 (Other) 48 - n2Day
+  - 🌐 其他地区 (Other) 49 - n2Day
+  - 🌐 其他地区 (Other) 50 - n2Day
+  - 🌐 其他地区 (Other) 51 - n2Day
+  - 🌐 其他地区 (Other) 52 - n2Day
+  - 🌐 其他地区 (Other) 53 - n2Day
+  - 🌐 其他地区 (Other) 54 - n2Day
+  - 🌐 其他地区 (Other) 55 - n2Day
+  - 🌐 其他地区 (Other) 56 - n2Day
+  - 🌐 其他地区 (Other) 57 - n2Day
+  - 🌐 其他地区 (Other) 58 - n2Day
+  - 🌐 其他地区 (Other) 59 - n2Day
+  - 🌐 其他地区 (Other) 60 - n2Day
+  - 🌐 其他地区 (Other) 61 - n2Day
+  - 🌐 其他地区 (Other) 62 - n2Day
+  - 🌐 其他地区 (Other) 63 - n2Day
+  - 🌐 其他地区 (Other) 64 - n2Day
+  - 🌐 其他地区 (Other) 65 - n2Day
+  - 🌐 其他地区 (Other) 66 - n2Day
+  - 🌐 其他地区 (Other) 67 - n2Day
+  - 🌐 其他地区 (Other) 68 - n2Day
+  - 🌐 其他地区 (Other) 69 - n2Day
+  - 🌐 其他地区 (Other) 70 - n2Day
+  - 🌐 其他地区 (Other) 71 - n2Day
+  - 🌐 其他地区 (Other) 72 - n2Day
+  - 🌐 其他地区 (Other) 73 - n2Day
+  - 🌐 其他地区 (Other) 74 - n2Day
+  - 🌐 其他地区 (Other) 75 - n2Day
+  - 🌐 其他地区 (Other) 76 - n2Day
+  - 🌐 其他地区 (Other) 77 - n2Day
+  - 🌐 其他地区 (Other) 78 - n2Day
+  - 🌐 其他地区 (Other) 79 - n2Day
+  - 🌐 其他地区 (Other) 80 - n2Day
+  - 🌐 其他地区 (Other) 81 - n2Day
+  - 🌐 其他地区 (Other) 82 - n2Day
+  - 🌐 其他地区 (Other) 83 - n2Day
 rules:
 - MATCH,PROXIES
