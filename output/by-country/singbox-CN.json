@@ -8,7 +8,9 @@
         "auto",
         "🇨🇳 CN 01 - n2Day",
         "🇨🇳 CN 02 - n2Day",
-        "🇨🇳 CN 03 - n2Day"
+        "🇨🇳 CN 03 - n2Day",
+        "🇨🇳 CN 04 - n2Day",
+        "🇨🇳 CN 05 - n2Day"
       ]
     },
     {
@@ -17,7 +19,9 @@
       "outbounds": [
         "🇨🇳 CN 01 - n2Day",
         "🇨🇳 CN 02 - n2Day",
-        "🇨🇳 CN 03 - n2Day"
+        "🇨🇳 CN 03 - n2Day",
+        "🇨🇳 CN 04 - n2Day",
+        "🇨🇳 CN 05 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
