@@ -6,14 +6,20 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇲🇩 MD 01 - n2Day"
+        "🇵🇭 PH 01 - n2Day",
+        "🇵🇭 PH 02 - n2Day",
+        "🇵🇭 PH 03 - n2Day",
+        "🇵🇭 PH 04 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇲🇩 MD 01 - n2Day"
+        "🇵🇭 PH 01 - n2Day",
+        "🇵🇭 PH 02 - n2Day",
+        "🇵🇭 PH 03 - n2Day",
+        "🇵🇭 PH 04 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
