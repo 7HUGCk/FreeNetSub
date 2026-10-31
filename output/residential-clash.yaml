@@ -60,6 +60,14 @@ proxies:
     path: /81574b6b-c9d7-44a0-b83d-dad56e8cb530
     headers:
       Host: 103.148.73.173
+- name: 🇺🇸 美国 (United States) 05 (家宽) - n2Day
+  type: vless
+  server: 169.128.83.4
+  port: 57259
+  uuid: a1962f23-f8f8-412d-f2ce-3361e7b72889
+  udp: true
+  tls: false
+  skip-cert-verify: true
 proxy-groups:
 - name: PROXIES
   type: select
@@ -69,6 +77,7 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 (家宽) - n2Day
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - n2Day
   - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - n2Day
+  - 🇺🇸 美国 (United States) 05 (家宽) - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -78,5 +87,6 @@ proxy-groups:
   - 🇮🇳 印度 (India) 02 (家宽) - n2Day
   - 🇹🇼 中国台湾 (Taiwan) 03 (家宽) - n2Day
   - 🇭🇰 中国香港 (Hong Kong) 04 (家宽) - n2Day
+  - 🇺🇸 美国 (United States) 05 (家宽) - n2Day
 rules:
 - MATCH,PROXIES
