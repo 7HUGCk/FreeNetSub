@@ -15,7 +15,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 02 - n2Day
   type: vless
   server: 208.69.78.217
@@ -27,21 +27,19 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: chrome
+  client-fingerprint: random
 - name: 🇨🇭 CH 03 - n2Day
   type: vless
-  server: 185.125.103.62
-  port: 8082
-  uuid: 72af1965-ec91-4376-82b1-75be51885506
+  server: 208.69.78.217
+  port: 2053
+  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
-  network: ws
-  ws-opts:
-    path: /@Marisa_kristi
-    headers:
-      Host: mw5qisav.wjwqvie0wb1eqhb8e83clqdoq3m5p9a4on.workers.dev
+  reality-opts:
+    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
+  servername: www.apple.com
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 04 - n2Day
   type: vless
   server: 208.69.78.217
@@ -53,7 +51,7 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
+  client-fingerprint: chrome
 - name: 🇨🇭 CH 05 - n2Day
   type: vless
   server: 208.69.78.217
@@ -65,34 +63,8 @@ proxies:
   reality-opts:
     public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
   servername: www.apple.com
-  client-fingerprint: random
-- name: 🇨🇭 CH 06 - n2Day
-  type: vless
-  server: 208.69.78.217
-  port: 2053
-  uuid: c0dd6d59-1573-43af-8b70-1470b2632a6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: A49ue7zXSusJZdErPAewg3jqGdUFIO1a9xOunEKJfC0
-  servername: www.apple.com
   client-fingerprint: chrome
-- name: 🇨🇭 CH 07 - n2Day
-  type: vless
-  server: 185.18.250.245
-  port: 443
-  uuid: f77299ea-e13d-417d-8cdc-ce5566dfc94b
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: edu.ruangguru.com.r3xxe.eu.cc
-  network: ws
-  ws-opts:
-    path: /nl-tw
-    headers:
-      Host: edu.ruangguru.com.r3xxe.eu.cc
-- name: 🇨🇭 CH 08 - n2Day
+- name: 🇨🇭 CH 06 - n2Day
   type: vless
   server: 208.69.78.217
   port: 2053
@@ -115,8 +87,6 @@ proxy-groups:
   - 🇨🇭 CH 04 - n2Day
   - 🇨🇭 CH 05 - n2Day
   - 🇨🇭 CH 06 - n2Day
-  - 🇨🇭 CH 07 - n2Day
-  - 🇨🇭 CH 08 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -128,7 +98,5 @@ proxy-groups:
   - 🇨🇭 CH 04 - n2Day
   - 🇨🇭 CH 05 - n2Day
   - 🇨🇭 CH 06 - n2Day
-  - 🇨🇭 CH 07 - n2Day
-  - 🇨🇭 CH 08 - n2Day
 rules:
 - MATCH,PROXIES
