@@ -5,34 +5,22 @@ mode: rule
 log-level: info
 proxies:
 - name: 🇨🇦 加拿大 (Canada) 01 - n2Day
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 - name: 🇨🇦 加拿大 (Canada) 02 - n2Day
-  type: vless
-  server: saas.sin.fan
-  port: 2096
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
+  type: ss
+  server: 51.222.12.127
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp13.1145678.xyz
-  network: ws
-  ws-opts:
-    path: /index/content
-    headers:
-      Host: vp13.1145678.xyz
 - name: 🇨🇦 加拿大 (Canada) 03 - n2Day
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -41,15 +29,18 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 04 - n2Day
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 05 - n2Day
   type: vmess
   server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 05 - n2Day
+  type: vmess
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -59,7 +50,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 06 - n2Day
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -68,62 +59,6 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 07 - n2Day
-  type: ss
-  server: 51.222.141.125
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 08 - n2Day
-  type: ss
-  server: 149.22.95.183
-  port: 443
-  cipher: aes-128-gcm
-  password: shadowsocks
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 09 - n2Day
-  type: vless
-  server: 104.18.1.1
-  port: 2083
-  uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vlsovip.1d.mom
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vlsovip.1d.mom
-- name: 🇨🇦 加拿大 (Canada) 10 - n2Day
-  type: vless
-  server: 172.67.65.56
-  port: 2053
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: whitecreeper.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: whitecreeper.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 11 - n2Day
-  type: vless
-  server: 104.17.148.22
-  port: 443
-  uuid: bf20cf5a-30c1-4022-9bcb-ba798ad51531
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wallweb7.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb7.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 12 - n2Day
   type: vmess
   server: 134.195.196.211
   port: 18000
@@ -133,35 +68,91 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 08 - n2Day
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 09 - n2Day
+  type: ss
+  server: 51.79.85.185
+  port: 8118
+  cipher: aes-256-gcm
+  password: cdBIDV42DCwnfIN
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 10 - n2Day
+  type: ss
+  server: 51.222.136.236
+  port: 8882
+  cipher: aes-256-gcm
+  password: kDWvXYZoTBcGkC4
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 11 - n2Day
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 12 - n2Day
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 13 - n2Day
-  type: vless
-  server: 172.67.142.169
-  port: 443
-  uuid: 4c0b7280-76bb-495c-9c8b-f05712ebf805
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: youxuanku.kdns.fr
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: youxuanku.kdns.fr
 - name: 🇨🇦 加拿大 (Canada) 14 - n2Day
-  type: vless
-  server: 104.17.147.22
-  port: 443
-  uuid: bf20cf5a-30c1-4022-9bcb-ba798ad51531
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: wallweb7.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb7.pages.dev
 - name: 🇨🇦 加拿大 (Canada) 15 - n2Day
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 16 - n2Day
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 17 - n2Day
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -173,30 +164,9 @@ proxies:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
   servername: www.cloudflare.com
   client-fingerprint: random
-- name: 🇨🇦 加拿大 (Canada) 16 - n2Day
-  type: ss
-  server: 51.222.136.236
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 17 - n2Day
-  type: vless
-  server: 188.164.248.96
-  port: 8443
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: whitecreeper.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: whitecreeper.pages.dev
 - name: 🇨🇦 加拿大 (Canada) 18 - n2Day
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -215,29 +185,28 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 20 - n2Day
-  type: ss
-  server: 51.79.49.116
-  port: 8882
-  cipher: aes-256-gcm
-  password: kDWvXYZoTBcGkC4
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 21 - n2Day
-  type: vless
-  server: 172.64.152.52
-  port: 443
-  uuid: 2d4b819d-6fa6-4db2-8434-61e7db0fe93c
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: cf.zhahui.de5.net
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: cf.zhahui.de5.net
-- name: 🇨🇦 加拿大 (Canada) 22 - n2Day
   type: vmess
   server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 21 - n2Day
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 22 - n2Day
+  type: vmess
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -247,7 +216,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 23 - n2Day
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -257,7 +226,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 24 - n2Day
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -266,144 +235,43 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 25 - n2Day
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 26 - n2Day
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 27 - n2Day
   type: ss
   server: 51.222.200.165
   port: 5000
   cipher: aes-256-gcm
   password: Y6R9pAtvxxzmGC
   udp: true
-- name: 🇨🇦 加拿大 (Canada) 26 - n2Day
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp22.1145678.xyz
-  network: ws
-  ws-opts:
-    path: /playlist
-    headers:
-      Host: vp22.1145678.xyz
-- name: 🇨🇦 加拿大 (Canada) 27 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 28 - n2Day
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: random
 - name: 🇨🇦 加拿大 (Canada) 29 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 30 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 31 - n2Day
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp12.1145678.xyz
-  network: ws
-  ws-opts:
-    path: /torrent/documents/photos
-    headers:
-      Host: vp12.1145678.xyz
-- name: 🇨🇦 加拿大 (Canada) 32 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 33 - n2Day
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp22.1145678.xyz
-  network: ws
-  ws-opts:
-    path: /m/club/seasons
-    headers:
-      Host: vp22.1145678.xyz
-- name: 🇨🇦 加拿大 (Canada) 34 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 35 - n2Day
-  type: ss
-  server: 51.79.64.198
-  port: 8119
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 36 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 37 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 38 - n2Day
   type: vless
   server: 66.70.179.198
   port: 2053
@@ -415,6 +283,99 @@ proxies:
     public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
   servername: www.cloudflare.com
   client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 30 - n2Day
+  type: ss
+  server: 51.222.155.32
+  port: 5003
+  cipher: aes-256-gcm
+  password: g5MeD6Ft3CWlJId
+  udp: true
+- name: 🇨🇦 加拿大 (Canada) 31 - n2Day
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
+- name: 🇨🇦 加拿大 (Canada) 32 - n2Day
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 33 - n2Day
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 34 - n2Day
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 35 - n2Day
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 36 - n2Day
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
+- name: 🇨🇦 加拿大 (Canada) 37 - n2Day
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
+- name: 🇨🇦 加拿大 (Canada) 38 - n2Day
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
+  udp: true
+  tls: true
+  skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+  servername: www.cloudflare.com
+  client-fingerprint: firefox
 - name: 🇨🇦 加拿大 (Canada) 39 - n2Day
   type: vmess
   server: 134.195.196.211
@@ -426,49 +387,46 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 40 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 41 - n2Day
   type: vless
-  server: 104.19.50.28
-  port: 443
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: vpn-1fj.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vpn-1fj.pages.dev
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+  servername: www.cloudflare.com
+  client-fingerprint: random
+- name: 🇨🇦 加拿大 (Canada) 41 - n2Day
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
+  udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 42 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: vless
+  server: 66.70.179.198
+  port: 2053
+  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
   udp: true
-  tls: false
+  tls: true
   skip-cert-verify: true
+  reality-opts:
+    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
+  servername: www.cloudflare.com
+  client-fingerprint: chrome
 - name: 🇨🇦 加拿大 (Canada) 43 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
+  type: ss
+  server: 149.22.95.183
+  port: 443
+  cipher: aes-128-gcm
+  password: shadowsocks
   udp: true
-  tls: false
-  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 44 - n2Day
   type: vmess
   server: 134.195.196.211
@@ -481,7 +439,7 @@ proxies:
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 45 - n2Day
   type: vmess
-  server: 23.162.200.198
+  server: 134.195.196.211
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -490,15 +448,18 @@ proxies:
   tls: false
   skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 46 - n2Day
-  type: ss
-  server: 51.222.12.127
-  port: 445
-  cipher: aes-256-gcm
-  password: zDNVedRFPQexG9v
+  type: vmess
+  server: 23.162.200.198
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
+  tls: false
+  skip-cert-verify: true
 - name: 🇨🇦 加拿大 (Canada) 47 - n2Day
   type: vmess
-  server: 134.195.196.211
+  server: 23.162.200.198
   port: 18000
   uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
   alterId: 0
@@ -519,125 +480,23 @@ proxies:
   servername: www.cloudflare.com
   client-fingerprint: chrome
 - name: 🇨🇦 加拿大 (Canada) 49 - n2Day
-  type: vless
-  server: 104.18.40.171
-  port: 443
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
+  type: ss
+  server: 51.222.141.125
+  port: 445
+  cipher: aes-256-gcm
+  password: zDNVedRFPQexG9v
   udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wallweb-4r0.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb-4r0.pages.dev
 - name: 🇨🇦 加拿大 (Canada) 50 - n2Day
-  type: vless
-  server: 104.21.71.249
-  port: 443
-  uuid: 3de5a94c-aadc-4e40-ba1a-7d4b6545f8a3
+  type: vmess
+  server: 134.195.196.211
+  port: 18000
+  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
+  alterId: 0
+  cipher: auto
   udp: true
-  tls: true
+  tls: false
   skip-cert-verify: true
-  servername: oooyo.bi8bo.cyou
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: oooyo.bi8bo.cyou
 - name: 🇨🇦 加拿大 (Canada) 51 - n2Day
-  type: ss
-  server: 51.79.85.185
-  port: 8118
-  cipher: aes-256-gcm
-  password: cdBIDV42DCwnfIN
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 52 - n2Day
-  type: vless
-  server: 172.64.147.85
-  port: 443
-  uuid: e53eacb6-cd30-4964-a57c-febcb5151b98
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wallweb-4r0.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb-4r0.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 53 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 54 - n2Day
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇨🇦 加拿大 (Canada) 55 - n2Day
-  type: vless
-  server: 104.18.26.217
-  port: 443
-  uuid: cced2d3b-9840-4579-a6b3-5de365f3bf50
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wallweb6.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb6.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 56 - n2Day
-  type: vless
-  server: saas.sin.fan
-  port: 443
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp19.1145678.xyz
-  network: ws
-  ws-opts:
-    path: /images/classify/dh
-    headers:
-      Host: vp19.1145678.xyz
-- name: 🇨🇦 加拿大 (Canada) 57 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 58 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 59 - n2Day
   type: vmess
   server: 23.162.200.198
   port: 18000
@@ -647,239 +506,6 @@ proxies:
   udp: true
   tls: false
   skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 60 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 61 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 62 - n2Day
-  type: vless
-  server: 148.113.196.75
-  port: 8443
-  uuid: 08f96221-9b7b-4e6f-8ffe-aee8b9c9b504
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: ov-canada1.09vpn.com
-  network: ws
-  ws-opts:
-    path: /vless/
-    headers:
-      Host: 148.113.196.75
-- name: 🇨🇦 加拿大 (Canada) 63 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 64 - n2Day
-  type: vless
-  server: 8.35.211.188
-  port: 8443
-  uuid: 2b181a3a-c001-4145-845a-5d43a43837d5
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vpn-1fj.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: vpn-1fj.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 65 - n2Day
-  type: vless
-  server: 8.39.125.213
-  port: 443
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: whitecreeper.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: whitecreeper.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 66 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 67 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 68 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 69 - n2Day
-  type: vmess
-  server: 134.195.196.211
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 70 - n2Day
-  type: vless
-  server: 188.164.248.81
-  port: 2087
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: whitecreeper.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: whitecreeper.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 71 - n2Day
-  type: vless
-  server: saas.sin.fan
-  port: 2053
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp11.1145678.xyz
-  network: ws
-  ws-opts:
-    path: /videos/forum
-    headers:
-      Host: vp11.1145678.xyz
-- name: 🇨🇦 加拿大 (Canada) 72 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 73 - n2Day
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: firefox
-- name: 🇨🇦 加拿大 (Canada) 74 - n2Day
-  type: vless
-  server: 104.18.40.171
-  port: 443
-  uuid: 8895be79-9817-4011-b81a-14a35a3d328e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: wallweb-boi.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: wallweb-boi.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 75 - n2Day
-  type: ss
-  server: 51.222.155.32
-  port: 5003
-  cipher: aes-256-gcm
-  password: g5MeD6Ft3CWlJId
-  udp: true
-- name: 🇨🇦 加拿大 (Canada) 76 - n2Day
-  type: vless
-  server: 162.159.130.234
-  port: 2096
-  uuid: 5d7b401c-78fa-4254-872e-6d42bf7e75ec
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: vp8.1145678.xyz
-  network: ws
-  ws-opts:
-    path: /p
-    headers:
-      Host: vp8.1145678.xyz
-- name: 🇨🇦 加拿大 (Canada) 77 - n2Day
-  type: vmess
-  server: 23.162.200.198
-  port: 18000
-  uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe
-  alterId: 0
-  cipher: auto
-  udp: true
-  tls: false
-  skip-cert-verify: true
-- name: 🇨🇦 加拿大 (Canada) 78 - n2Day
-  type: vless
-  server: 104.17.28.83
-  port: 2087
-  uuid: 099244b9-2168-4dbd-870e-cbbe9d6eb573
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  servername: whitecreeper.pages.dev
-  network: ws
-  ws-opts:
-    path: /
-    headers:
-      Host: whitecreeper.pages.dev
-- name: 🇨🇦 加拿大 (Canada) 79 - n2Day
-  type: vless
-  server: 66.70.179.198
-  port: 2053
-  uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e
-  udp: true
-  tls: true
-  skip-cert-verify: true
-  reality-opts:
-    public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU
-  servername: www.cloudflare.com
-  client-fingerprint: chrome
 proxy-groups:
 - name: PROXIES
   type: select
@@ -936,34 +562,6 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 49 - n2Day
   - 🇨🇦 加拿大 (Canada) 50 - n2Day
   - 🇨🇦 加拿大 (Canada) 51 - n2Day
-  - 🇨🇦 加拿大 (Canada) 52 - n2Day
-  - 🇨🇦 加拿大 (Canada) 53 - n2Day
-  - 🇨🇦 加拿大 (Canada) 54 - n2Day
-  - 🇨🇦 加拿大 (Canada) 55 - n2Day
-  - 🇨🇦 加拿大 (Canada) 56 - n2Day
-  - 🇨🇦 加拿大 (Canada) 57 - n2Day
-  - 🇨🇦 加拿大 (Canada) 58 - n2Day
-  - 🇨🇦 加拿大 (Canada) 59 - n2Day
-  - 🇨🇦 加拿大 (Canada) 60 - n2Day
-  - 🇨🇦 加拿大 (Canada) 61 - n2Day
-  - 🇨🇦 加拿大 (Canada) 62 - n2Day
-  - 🇨🇦 加拿大 (Canada) 63 - n2Day
-  - 🇨🇦 加拿大 (Canada) 64 - n2Day
-  - 🇨🇦 加拿大 (Canada) 65 - n2Day
-  - 🇨🇦 加拿大 (Canada) 66 - n2Day
-  - 🇨🇦 加拿大 (Canada) 67 - n2Day
-  - 🇨🇦 加拿大 (Canada) 68 - n2Day
-  - 🇨🇦 加拿大 (Canada) 69 - n2Day
-  - 🇨🇦 加拿大 (Canada) 70 - n2Day
-  - 🇨🇦 加拿大 (Canada) 71 - n2Day
-  - 🇨🇦 加拿大 (Canada) 72 - n2Day
-  - 🇨🇦 加拿大 (Canada) 73 - n2Day
-  - 🇨🇦 加拿大 (Canada) 74 - n2Day
-  - 🇨🇦 加拿大 (Canada) 75 - n2Day
-  - 🇨🇦 加拿大 (Canada) 76 - n2Day
-  - 🇨🇦 加拿大 (Canada) 77 - n2Day
-  - 🇨🇦 加拿大 (Canada) 78 - n2Day
-  - 🇨🇦 加拿大 (Canada) 79 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
@@ -1020,33 +618,5 @@ proxy-groups:
   - 🇨🇦 加拿大 (Canada) 49 - n2Day
   - 🇨🇦 加拿大 (Canada) 50 - n2Day
   - 🇨🇦 加拿大 (Canada) 51 - n2Day
-  - 🇨🇦 加拿大 (Canada) 52 - n2Day
-  - 🇨🇦 加拿大 (Canada) 53 - n2Day
-  - 🇨🇦 加拿大 (Canada) 54 - n2Day
-  - 🇨🇦 加拿大 (Canada) 55 - n2Day
-  - 🇨🇦 加拿大 (Canada) 56 - n2Day
-  - 🇨🇦 加拿大 (Canada) 57 - n2Day
-  - 🇨🇦 加拿大 (Canada) 58 - n2Day
-  - 🇨🇦 加拿大 (Canada) 59 - n2Day
-  - 🇨🇦 加拿大 (Canada) 60 - n2Day
-  - 🇨🇦 加拿大 (Canada) 61 - n2Day
-  - 🇨🇦 加拿大 (Canada) 62 - n2Day
-  - 🇨🇦 加拿大 (Canada) 63 - n2Day
-  - 🇨🇦 加拿大 (Canada) 64 - n2Day
-  - 🇨🇦 加拿大 (Canada) 65 - n2Day
-  - 🇨🇦 加拿大 (Canada) 66 - n2Day
-  - 🇨🇦 加拿大 (Canada) 67 - n2Day
-  - 🇨🇦 加拿大 (Canada) 68 - n2Day
-  - 🇨🇦 加拿大 (Canada) 69 - n2Day
-  - 🇨🇦 加拿大 (Canada) 70 - n2Day
-  - 🇨🇦 加拿大 (Canada) 71 - n2Day
-  - 🇨🇦 加拿大 (Canada) 72 - n2Day
-  - 🇨🇦 加拿大 (Canada) 73 - n2Day
-  - 🇨🇦 加拿大 (Canada) 74 - n2Day
-  - 🇨🇦 加拿大 (Canada) 75 - n2Day
-  - 🇨🇦 加拿大 (Canada) 76 - n2Day
-  - 🇨🇦 加拿大 (Canada) 77 - n2Day
-  - 🇨🇦 加拿大 (Canada) 78 - n2Day
-  - 🇨🇦 加拿大 (Canada) 79 - n2Day
 rules:
 - MATCH,PROXIES
