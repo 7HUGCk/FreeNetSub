@@ -4,31 +4,31 @@ allow-lan: true
 mode: rule
 log-level: info
 proxies:
-- name: 🇮🇳 印度 (India) 01 (家宽) - n2Day
+- name: 🇧🇬 BG 01 - n2Day
   type: vless
-  server: 122.176.216.52
+  server: 188.114.98.0
   port: 443
-  uuid: 16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+  uuid: 4911ec85-501b-4841-92d5-fbf9d942faf4
   udp: true
   tls: true
   skip-cert-verify: true
-  servername: app-6ada5023.deploy.meerasolution.com
+  servername: fast-route-279ca1-gw.staging-api-c694f6.workers.dev
   network: ws
   ws-opts:
-    path: /ws/16ae3ea5-cf3e-6973-7bf3-2b4b28d0ea88
+    path: /3c7d135ea6a9e966?ed=2560
     headers:
-      Host: app-6ada5023.deploy.meerasolution.com
+      Host: fast-route-279ca1-gw.staging-api-c694f6.workers.dev
 proxy-groups:
 - name: PROXIES
   type: select
   proxies:
   - AUTO
-  - 🇮🇳 印度 (India) 01 (家宽) - n2Day
+  - 🇧🇬 BG 01 - n2Day
 - name: AUTO
   type: url-test
   url: https://www.google.com/generate_204
   interval: 300
   proxies:
-  - 🇮🇳 印度 (India) 01 (家宽) - n2Day
+  - 🇧🇬 BG 01 - n2Day
 rules:
 - MATCH,PROXIES
