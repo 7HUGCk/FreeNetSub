@@ -6,14 +6,18 @@
       "tag": "select",
       "outbounds": [
         "auto",
-        "🇪🇸 西班牙 (Spain) 01 - n2Day"
+        "🇪🇸 西班牙 (Spain) 01 - n2Day",
+        "🇪🇸 西班牙 (Spain) 02 - n2Day",
+        "🇪🇸 西班牙 (Spain) 03 - n2Day"
       ]
     },
     {
       "type": "urltest",
       "tag": "auto",
       "outbounds": [
-        "🇪🇸 西班牙 (Spain) 01 - n2Day"
+        "🇪🇸 西班牙 (Spain) 01 - n2Day",
+        "🇪🇸 西班牙 (Spain) 02 - n2Day",
+        "🇪🇸 西班牙 (Spain) 03 - n2Day"
       ],
       "url": "https://www.google.com/generate_204"
     },
